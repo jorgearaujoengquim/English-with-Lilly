@@ -1,0 +1,104 @@
+:root { 
+    --us-blue: #0A2144;      /* Azul marinho profundo (Oxford Blue) */
+    --us-red: #B22234;       /* Vermelho clássico da bandeira, mas sóbrio */
+    --us-white: #FFFFFF;
+    --us-silver: #F8F9FA;    /* Cinza bem clarinho para fundos */
+    --us-accent: #FFD700;    /* Ouro para detalhes de "luz" (como as estrelas) */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    background-color: var(--us-white);
+}
+
+/* Navbar de Luxo */
+.navbar {
+    background-color: var(--us-blue) !important;
+    border-bottom: 4px solid var(--us-red); /* Linha vermelha fina para elegância */
+    padding: 15px 0;
+}
+
+#titulo {
+    font-family: 'Sora', sans-serif;
+    color: var(--us-white) !important;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.navbar-nav .nav-link {
+    color: var(--us-white) !important;
+    font-weight: 500;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--us-accent) !important; /* Brilho dourado no hover */
+}
+
+/* Seção de Serviços (Cards) */
+h2 {
+    font-family: 'Outfit', sans-serif;
+    color: var(--us-blue);
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.card {
+    border: none;
+    border-radius: 0; /* Bordas retas passam mais seriedade/elegância */
+    background-color: var(--us-white);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: all 0.4s ease;
+    border-left: 5px solid var(--us-blue); /* Detalhe lateral em azul */
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(10, 33, 68, 0.1);
+    border-left: 5px solid var(--us-red); /* Muda para vermelho no hover */
+}
+
+.card-title {
+    color: var(--us-blue);
+    font-weight: 700;
+}
+
+/* Seção Diferenciais (Sobre Nós) */
+#diferenciais {
+    background-color: var(--us-blue);
+    color: white;
+    padding: 50px 20px;
+    border-radius: 6px;
+}
+
+#diferenciais h2 {
+    color: var(--us-white);
+}
+
+.diferenciais, .sobre-nos {
+    background-color: blue; /* o seu fundo atual */
+    border-bottom: 4px solid var(--us-red);  /* a borda que você pediu */
+}
+
+#diferenciais p {
+    border-left: 3px solid var(--us-red);
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--us-silver);
+    border-top: 1px solid #ddd;
+    padding: 40px 0;
+    text-align: center;
+    color: var(--us-blue);
+}
+
+footer p {
+    font-weight: 700;
+}
+
