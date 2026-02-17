@@ -39,11 +39,12 @@ body {
 
 /* Seção de Serviços (Cards) */
 h2 {
+    margin-top: 50px
     font-family: 'Outfit', sans-serif;
     color: var(--us-blue);
     font-weight: 800;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .card {
@@ -68,6 +69,7 @@ h2 {
 
 /* Seção Diferenciais (Sobre Nós) */
 #diferenciais {
+    margin-top: 50px;
     background-color: var(--us-blue);
     color: white;
     padding: 50px 20px;
@@ -78,8 +80,8 @@ h2 {
     color: var(--us-white);
 }
 
-.diferenciais, .sobre-nos {
-    background-color: blue; /* o seu fundo atual */
+#diferenciais, .sobre-nos {
+    background-color:var(--us-blue); /* o seu fundo atual */
     border-bottom: 4px solid var(--us-red);  /* a borda que você pediu */
 }
 
@@ -91,14 +93,20 @@ h2 {
 
 /* Rodapé */
 footer {
-    background-color: var(--us-silver);
-    border-top: 1px solid #ddd;
-    padding: 40px 0;
-    text-align: center;
-    color: var(--us-blue);
+    margin-top: 50px;
+    background-color: var(--us-blue);
+    color: var(--us-white);
+    border-radius: 6px;  
+    padding: 40px 0; 
+    text-align: center;  
+     border-bottom: 4px solid var(--us-red);  /* a borda que você pediu */
+} 
+
+#contato h2 {
+    color: var(--us-white);
 }
 
 footer p {
-    font-weight: 700;
+    font-weight: 700;    
 }
 
